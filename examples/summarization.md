@@ -16,5 +16,9 @@
        * Entailments (**TODO**)
   * #proposition:
     * For each proposition in the proposition dict:
-      * In the line with #proposition
-
+      * In the line with #proposition - proposition ID ; time-stamp (of first tweet with mention of the propsition) [TAB delimited]
+      * #predicates - list of templates
+        * each template - words and argument-links  [number of proposition-mentions and ID of source tweets] ; ENTAILMENT
+      * arguments - list of arguments, each with:
+        * argument-ID  TAB label  TAB  alias\id-of-entity\prop [number of argument-mentions and ID of source tweets]  
+        
